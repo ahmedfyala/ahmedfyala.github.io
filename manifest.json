@@ -1,33 +1,27 @@
 {
-    "name": "ahmed_fyala_portfolio",
-    "short_name": "ahmed_fyala_portfolio",
+    "name": "Ahmed Fyala | Portfolio",
+    "short_name": "Ahmed Fyala",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#0A0D0F",
+    "theme_color": "#00B171",
+    "description": "Portfolio of Ahmed Mahmoud Fyala, a passionate Flutter Mobile Developer from Egypt.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
         {
-            "src": "icons/Icon-192.png",
+            "src": "web-app-manifest-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "icons/Icon-512.png",
+            "src": "web-app-manifest-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "icons/Icon-maskable-192.png",
-            "sizes": "192x192",
-            "type": "image/png",
-            "purpose": "maskable"
-        },
-        {
-            "src": "icons/Icon-maskable-512.png",
-            "sizes": "512x512",
+            "src": "apple-touch-icon.png",
+            "sizes": "180x180",
             "type": "image/png",
             "purpose": "maskable"
         }
