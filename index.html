@@ -5,63 +5,39 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- ✨ Security Headers -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://vfsndkebozvffcnzghrk.supabase.co; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' https://vfsndkebozvffcnzghrk.supabase.co data:; connect-src 'self' https://vfsndkebozvffcnzghrk.supabase.co; object-src 'none'; base-uri 'self';">
-  <meta http-equiv="X-Content-Type-Options" content="nosniff">
-  <meta http-equiv="X-Frame-Options" content="DENY">
-  <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
-  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=()">
-
-  <!-- Flutter & SEO Meta Tags -->
-  <meta name="generator" content="Flutter">
-  <meta name="flutter-build-mode" content="release">
-  <meta name="flutter-route-management" content="url-strategy">
   <title>Ahmed Fyala | Flutter Developer & Mentor</title>
-  <meta name="description" content="Portfolio of Ahmed Fyala, a skilled Flutter Developer and Mentor from Damietta, Egypt, specializing in creating high-performance, user-centric mobile applications. Certified in Front-End Web Development by Udacity.">
-  <meta name="keywords" content="Ahmed Fyala, Ahmed Mahmoud Fyala, Ahmed Fayala, Flutter Developer, Mobile Developer, Flutter Mentor, Egypt, Dart, Firebase, BloC, Clean Architecture, REST API, GetIt, Dio, SOLID, Cakestay, Route, Semicolon, Baroline, Freelance, Portfolio">
+  <meta name="description" content="Portfolio of Ahmed Fyala, a skilled Flutter Developer and Mentor from Damietta, Egypt, specializing in creating high-performance, user-centric mobile applications.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://ahmedfyala.github.io/my-portfolio/" />
-  <link rel="sitemap" type="application/xml" title="Sitemap" href="/my-portfolio/sitemap.xml" />
   <meta name="theme-color" content="#00B171">
   <meta name="google-site-verification" content="Q0wr9DdDeeCIaK8vfT2QI0pYHiWpsGehy7CVAeGLBKY" />
 
-  <!-- Social Media & PWA Tags -->
   <meta property="og:title" content="Ahmed Fyala | Flutter Developer & Mentor">
   <meta property="og:description" content="Explore the portfolio of Ahmed Fyala, a passionate Flutter Developer from Egypt, showcasing innovative mobile application projects and technical expertise.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://ahmedfyala.github.io/my-portfolio/">
   <meta property="og:image" content="https://vfsndkebozvffcnzghrk.supabase.co/storage/v1/object/public/profile-pictures/me.webp">
   <meta property="og:image:alt" content="A photo of Ahmed Fyala">
+
   <meta property="twitter:card" content="summary_large_image">
   <meta property="twitter:url" content="https://ahmedfyala.github.io/my-portfolio/">
   <meta property="twitter:title" content="Ahmed Fyala | Flutter Developer & Mentor">
   <meta property="twitter:description" content="Discover the work of Ahmed Fyala, a skilled Flutter developer creating engaging and user-friendly mobile apps.">
   <meta property="twitter:image" content="https://vfsndkebozvffcnzghrk.supabase.co/storage/v1/object/public/profile-pictures/me.webp">
   <meta property="twitter:image:alt" content="A photo of Ahmed Fyala">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Ahmed Fyala | Portfolio">
-  <meta name="application-name" content="Ahmed Fyala Portfolio">
 
-  <!-- Performance & Resource Hints -->
-  <meta name="format-detection" content="telephone=no">
-  <meta name="msapplication-tap-highlight" content="no">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="icon" href="favicon.ico" sizes="any">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="manifest" href="manifest.json">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="dns-prefetch" href="https://vfsndkebozvffcnzghrk.supabase.co">
   <link rel="preload" href="assets/fonts/Poppins-Regular.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="preload" href="assets/fonts/Poppins-Bold.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="preload" href="https://vfsndkebozvffcnzghrk.supabase.co/storage/v1/object/public/profile-pictures/me.webp" as="image">
-  <link rel="preload" href="assets/AssetManifest.json" as="fetch" crossorigin>
-  <link rel="preload" href="assets/FontManifest.json" as="fetch" crossorigin>
-  <link rel="prefetch" href="assets/packages/cupertino_icons/assets/CupertinoIcons.ttf">
 
   <style>
     body { background-color: #0A0D0F; margin: 0; padding: 0; overflow: hidden; display: flex; justify-content: center; align-items: center; height: 100vh; }
@@ -76,13 +52,32 @@
   </style>
 
   <script type="application/ld+json">
-    { /* Person Schema */ }
-  </script>
-  <script type="application/ld+json">
-    { /* LocalBusiness Schema */ }
-  </script>
-  <script type="application/ld+json">
-    { /* FAQPage Schema */ }
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ahmed Fyala",
+      "url": "https://ahmedfyala.github.io/my-portfolio/",
+      "image": "https://vfsndkebozvffcnzghrk.supabase.co/storage/v1/object/public/profile-pictures/me.webp",
+      "jobTitle": "Flutter Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Cakestay"
+      },
+      "email": "mailto:afyala90@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Damietta",
+        "addressCountry": "EG"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Higher Technological Institute"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/ahmedfyala",
+        "https://github.com/ahmedfyala"
+      ]
+    }
   </script>
 
 </head>
@@ -96,16 +91,6 @@
   <div class="loading-text">Loading Portfolio...</div>
 </div>
 
-<script>
-  window.addEventListener('error', function(e) { console.error('Portfolio loading error:', e); });
-</script>
-<script>
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/my-portfolio/sw.js');
-    });
-  }
-</script>
 <script src="flutter_bootstrap.js" defer></script>
 </body>
 </html>
