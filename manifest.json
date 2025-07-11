@@ -8,20 +8,34 @@
     "description": "Portfolio of Ahmed Mahmoud Fyala, a passionate Flutter Mobile Developer from Egypt.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
+    "lang": "en",
+    "dir": "ltr",
+    "categories": [
+        "business",
+        "developer",
+        "portfolio",
+        "personalization"
+    ],
     "icons": [
         {
-            "src": "web-app-manifest-192x192.png",
+            "src": "icon-192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "web-app-manifest-512x512.png",
+            "src": "icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
         },
         {
-            "src": "apple-touch-icon.png",
-            "sizes": "180x180",
+            "src": "icon-192-maskable.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icon-512-maskable.png",
+            "sizes": "512x512",
             "type": "image/png",
             "purpose": "maskable"
         }
